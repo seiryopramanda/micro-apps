@@ -9,7 +9,7 @@ const DetailContent = (props: IArticle) => {
         <div className="flex items-center justify-between mx-20 py-20">
           <div
             className="flex items-center cursor-pointer"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/home")}
           >
             <p className="text-3xl font-bold justify-start">&larr;</p>
             <p className="text-xl">Beranda</p>
