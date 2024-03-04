@@ -5,7 +5,7 @@ interface ChartProps {}
 
 const Chart: FC<ChartProps> = ({}) => {
   const options = {
-    labels: ["Cintara Surya Paloh", "Surya Surya", "Cintara"],
+    labels: ["Cintara", "Cintara Surya Paloh", "Surya Surya"],
 
     colors: ["#36A2EB", "#FF6384", "#FFCD56"],
 
