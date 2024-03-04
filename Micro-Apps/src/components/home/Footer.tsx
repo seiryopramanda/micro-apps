@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/images/logo.png";
+import Logo from "../../assets/images/logo.png";
 
 const Footer: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="py-3.5 flex items-center justify-center border-t-2">
-          <p>Komisi Pemilihan Umum Dumbways.ID | Seiryo @2023</p>
+          <p>Komisi Pemilihan Umum Dumbways.ID | Seiryo @2024</p>
         </div>
       </div>
     </>
