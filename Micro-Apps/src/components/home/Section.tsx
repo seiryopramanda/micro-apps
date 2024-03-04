@@ -24,7 +24,10 @@ const Section = (article: IArticle) => {
         {article.id > 1 && (
           <div className=" w-367 h-421 bg-white">
             <img src={article.image} className="" alt="" />
-            <button className="bg-red w-217 h-47 rounded-xl text-white font-bold text-xl mt-4 ml-4">
+            <button
+              className="bg-red w-217 h-47 rounded-xl text-white font-bold text-xl mt-4 ml-4"
+              onClick={() => navigate("/detail")}
+            >
               {article.date}
             </button>
             <h1 className="font-bold text-3xl mt-3 ml-4">{article.title}</h1>
