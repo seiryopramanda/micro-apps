@@ -7,7 +7,7 @@ const Chart: FC<ChartProps> = ({}) => {
   const options = {
     labels: ["Cintara Surya Paloh", "Surya Surya", "Cintara"],
 
-    colors: ["#FF6384", "#36A2EB", "#FFCD56"],
+    colors: ["#36A2EB", "#FF6384", "#FFCD56"],
 
     animations: {
       enabled: true,
